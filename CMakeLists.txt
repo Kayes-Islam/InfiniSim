@@ -212,6 +212,12 @@ target_sources(infinisim PUBLIC
   ${InfiniTime_DIR}/src/components/motor/MotorController.cpp
   ${InfiniTime_DIR}/src/components/timer/TimerController.h
   ${InfiniTime_DIR}/src/components/timer/TimerController.cpp
+
+  ${InfiniTime_DIR}/src/displayapp/screens/resources/block_piece.h
+  ${InfiniTime_DIR}/src/displayapp/screens/resources/board.h
+  ${InfiniTime_DIR}/src/displayapp/screens/resources/block_piece.cpp
+  ${InfiniTime_DIR}/src/displayapp/screens/resources/board.cpp
+
   ${InfiniTime_DIR}/src/drivers/PinMap.h
   ${InfiniTime_DIR}/src/drivers/Spi.h
   ${InfiniTime_DIR}/src/drivers/Spi.cpp
